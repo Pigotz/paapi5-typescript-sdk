@@ -1,9 +1,13 @@
 {
     "name": "paapi5-typescript-sdk",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "author": {
         "name": "Francesco Pigozzi",
         "email": "pigozzi.fr@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Pigotz/paapi5-typescript-sdk"
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
