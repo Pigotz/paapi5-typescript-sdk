@@ -1,6 +1,6 @@
 {
     "name": "paapi5-typescript-sdk",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Francesco Pigozzi",
         "email": "pigozzi.fr@gmail.com"
@@ -18,6 +18,13 @@
       "LICENSE"
     ],
     "license": "MIT",
+    "keywords": [
+      "amazon",
+      "aws",
+      "paapi5",
+      "typescript",
+      "node"
+    ],
     "scripts": {
       "clean": "rimraf dist",
       "prebuild": "npm run clean",
