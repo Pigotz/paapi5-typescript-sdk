@@ -18,6 +18,13 @@
       "LICENSE"
     ],
     "license": "MIT",
+    "keywords": [
+      "amazon",
+      "aws",
+      "paapi5",
+      "typescript",
+      "node"
+    ],
     "scripts": {
       "clean": "rimraf dist",
       "prebuild": "npm run clean",
