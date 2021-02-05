@@ -29,7 +29,7 @@ export interface GetItemsPayload {
     Resources?: GetItemsResource[];
 }
 
-export interface ItemResultsItem {
+export interface Item {
     ASIN: string;
     DetailPageURL: string;
     ParentASIN?: string;
@@ -38,12 +38,12 @@ export interface ItemResultsItem {
     Offers?: Offers;
 }
 
-export interface ItemResults {
-    Items: ItemResultsItem[];
+export interface ItemsResult {
+    Items: Item[];
 }
 
 export interface GetItemsResponse extends CommonResponse {
-    ItemResults: ItemResults;
+    ItemsResult: ItemsResult;
 }
 
 export class GetItemsRequest extends CommonRequest<GetItemsResponse> {
