@@ -1,4 +1,4 @@
-export type ImageType = 'Primary' | 'Variant';
+export type ImageType = 'Primary' | 'Variants';
 export type ImageSize = 'Small' | 'Medium' | 'Large';
 
 export interface ImageData {
