@@ -4,10 +4,10 @@ export interface BrowseNode {
     Id: string;
     DisplayName: string;
     ContextFreeName: string;
-    IsRoot: boolean;
+    IsRoot?: boolean;
     Ancestor?: BrowseNode;
     Children?: BrowseNode[];
     SalesRank?: string;
 }
 
-export type BrowseNodeResource = Resources<BrowseNode, 'BrowseNodes.'>;
+export type BrowseNodeResource = Resources<BrowseNode, 'BrowseNodeInfo.BrowseNodes.'>;

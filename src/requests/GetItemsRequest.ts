@@ -1,5 +1,6 @@
 import { HttpMethod } from '../http/types';
 import { BrowseNodeInfoResource } from '../models/BrowseNodeInfo';
+import { CustomerReviewsResource } from '../models/CustomerReviews';
 import { Images, ImagesResource } from '../models/Images';
 import { ItemInfo, ItemInfoResource } from '../models/ItemInfo';
 import { Offers, OffersResource } from '../models/Offers';
@@ -12,6 +13,7 @@ export type GetItemsMerchant = 'All' | 'Amazon';
 
 export type GetItemsResource =
     | BrowseNodeInfoResource
+    | CustomerReviewsResource
     | ImagesResource
     | ItemInfoResource
     | OffersResource
